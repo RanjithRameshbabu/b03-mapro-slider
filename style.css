@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+button.flickity-button.flickity-prev-next-button.next {
+  display: block;
+  background-color: #0d0c0d;
+  color: #ffffff;
+}
+button.flickity-button.flickity-prev-next-button.previous {
+  background: #0a0a0a;
+  color: white;
+}
+
+.card {
+  width: 90%;
+  overflow: hidden;
+}
+
+.top-heading {
+  color: #3498db;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.inner-container {
+  display: flex;
+}
+
+.details {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.person-info {
+  color: #2f85dc;
+  font-size: 16px;
+}
+
+.person-name {
+  margin: 25px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.person-position {
+  color: #22d2e6;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    margin-left: 10%;
+  }
+
+  .top-heading {
+    font-size: 24px;
+  }
+
+  .inner-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .details {
+    width: 40vw;
+    height: 45vh;
+    padding: 0 40px;
+    border-radius: 20px;
+  }
+
+  .content {
+    width: 75%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .person-info {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .person-name {
+    font-size: 22px;
+  }
+
+  .person-position {
+    font-size: 20px;
+  }
+
+  .carousel {
+    width: 60vw;
+    height: 35vh;
+    background: #ffffff;
+  }
+
+  .img {
+    width: 30vw;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+  }
+}
